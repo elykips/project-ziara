@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+    <div class="col-lg-12"  style="background-color:transparent;">
+        <nav class="navbar navbar-expand-md">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#"><img src="../images/logo/ziara.png" width="150px" height="63px"></a>
+        
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+    </div> 
+
+    <!-- heading -->
+    <div class="row mx-auto col-lg-10">
+        <div>
+            <h5 class="text-left mt-1 mb-1 ml-2 text-info">Tour Activities and Accommodation</h5>
+            <h4 class="text-left mt-1 mb-2 ml-2">Resident Package - 3 Nights, 4 Days</h4>
+            <h5 class="text-left mt-1 mb-2 ml-2">Inclusive:</h5>
+        </div>
+    </div>
+    <!-- facts -->
+    <div class="row mx-auto  col-lg-10">
+        <div class="col-lg-7 mb-3">
+            <div class="col-lg-12">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>SGR Tickets( Economy) To and from Nairobi.</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Transfers to and from the SGR.</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Accomodation in a Villa or Apartment.</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Meals Half board at the Villa or Apartment (Breakfast 
+                                and Dinner.)</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+            </div>
+            <div class ="col-lg-12">
+                <h4>Below are sites you can visit while there:</h4>
+                <div class="form-check">
+                <div class="table-responsive">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="form-check">
+                                    
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Shimoni Caves
+                                    </label>
+                                </div>
+                            </td>
+                        </tr><br/> 
+                        <tr>            
+                            <td>
+                                <div class="form-check">
+                                    
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Diani Beach
+                                    </label>
+                                </div>
+                            </td>
+                        </tr><br/>
+                        <tr>
+                            <td>
+                                <div class="form-check">
+                                   
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Wasini Island
+                                    </label>
+                                </div>
+                            </td>
+                        </tr><br/>
+                        <tr>
+                            <td>
+                                <div class="form-check">
+                                    
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Ali Barbour's Cave Restaurant
+                                    </label>
+                                </div>
+                            </td>
+                        </tr><br/>
+                        <tr>
+                            <td>
+                                <div class="form-check">
+                                    
+                                    <label class="form-check-label" for="defaultCheck1">
+                                    Kisite-Mpunguti Marine Reserve
+                                    </label>
+                                </div>
+                            </td>
+                        </tr><br/>
+                        <tr>
+                            <td>
+                                <div class="form-check">
+                                    
+                                    <label class="form-check-label" for="defaultCheck1">
+                                    SkyDive Diani
+                                    </label>
+                                </div>
+                            </td>
+                        </tr>
+                </tbody>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5 mb-3">
+            <div class="col-lg-12 img-fluid">
+                <img src="../images/destinations/diani1.jpg" style='height: 100%; width: 100%; object-fit: contain; border-radius: 2%;'> <br/><br/>
+                <p>Ksh 14,500 per person</p>
+                <p>Tour provided by <img src="../images/destinations/benchmark.jpg" width="70px" height="50px"></p>
+                <button class="btn btn-info btn-block btn-lg" data-toggle="modal" data-target="#myModal">Book</button> 
+
+                <!-- The Modal -->
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                        <h4 class="modal-title">Tell us</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                            <form id="myForm" method="post">
+                                <input type="hidden" value="hello" id="myField">
+                                <div class="form-group">
+                                    <label for="group">How many are you?:</label>
+                                    <input type="text" class="form-control" id="group">
+                                </div>
+                                <div class="form-group">
+                                    <label for="date">When do you want to travel?</label>
+                                    <input type="date" class="form-control" id="date">
+                                </div>
+                                <div class="form-group">
+                                    <label for="date">For how many days do you want to travel?</label>
+                                    <input type="text" class="form-control" id="days">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Which sites do you want to visit?:</label>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value=""> Diani Beach</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value=""> Wasini Island</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value=""> Skydive diani</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value=""> Shimoni Caves</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value=""> Ali Barbour's Cave Restaurant</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value=""> Kisite-Mpunguti Marine Reserve</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Where do you want to stay?:</label>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value=""> Villa</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value=""> Apartment</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Which of the following do you prefer?</label>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value=""> Cook for yourself</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value=""> Hire a chef</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label><input type="checkbox" value=""> Eat Outside</label>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Any questions?</label>
+                                    <input type="text" class="form-control" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email address:</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+                                <button id="myFormSubmit" type="submit">Submit</button>
+                            </form>
+                        </div>
+                
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
+                
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mx-auto col-lg-10">
+        <div class="col-lg-4 mb-3">
+            <img src="../images/destinations/Diani/d1.jpg" style='height: 100%; width: 100%; object-fit: contain; border-radius: 2%;'>
+        </div>
+        <div class="col-lg-4 mb-3">
+            <img src="../images/destinations/Diani/d2.jpg" style='height: 100%; width: 100%; object-fit: contain; border-radius: 2%;'>
+        </div>
+        <div class="col-lg-4 mb-3">
+            <img src="../images/destinations/Diani/d3.jpg" style='height: 100%; width: 100%; object-fit: contain; border-radius: 2%;'>
+        </div>
+        <div class="col-lg-4 mb-3">
+            <img src="../images/destinations/Diani/d4.jpg" style='height: 100%; width: 100%; object-fit: contain; border-radius: 2%;'>
+        </div>
+        <div class="col-lg-4 mb-3">
+            <img src="../images/destinations/Diani/d5.jpg" style='height: 100%; width: 100%; object-fit: contain; border-radius: 2%;'>
+        </div>
+        <div class="col-lg-4 mb-3">
+            <img src="../images/destinations/Diani/d6.jpg" style='height: 100%; width: 100%; object-fit: contain; border-radius: 2%;'>
+        </div>
+    </div>
+  </body>
+  </html>
